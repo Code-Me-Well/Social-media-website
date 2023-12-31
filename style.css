@@ -176,22 +176,26 @@ main .container .left .profile {
 }
 
 .left .sidebar i {
-    font-style: 1.4rem;
+    font-style: 1.6rem;
     color: var(--color-gray);
     margin-left: 2rem;
     position: relative;
 }
 
-.left .sidebar i .notification-count {
+.left .sidebar .menu-item i .notification-count {
     background: var(--color-danger);
-    color: white;
-    font-style: 0.7rem;
-    width: fit-content;
-    border-radius: 0.8rem;
-    padding: 0.1rem 0.4rem;
     position: absolute;
-    top: -0.2rem;
-    right: -0.3rem;
+    color: white;
+    font-size: x-small;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.8rem;
+    top: -0.3rem;
+    right: -0.6rem;
+    width: fit-content;
+}
+
+.left .sidebar .menu-item i #notification-count {
+    right: -1.1rem;
 }
 
 .left .sidebar h3 {
@@ -518,7 +522,7 @@ main .container .right {
     background: var(--color-white);
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
-    margin-bottom: 0.7ren;
+    margin-bottom: 0.7rem;
 }
 
 .right .request .info {
